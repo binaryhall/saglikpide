@@ -8,8 +8,7 @@ const navLinks = ref([
   { name: 'Ana Sayfa', href: '/', active: true },
   { name: 'Menümüz', href: '/restourant/menu' },
   { name: 'Interier', href: '/interier' },
-  { name: 'Lezzet Sırları', href: '#ozellikler' },
-  { name: 'İletişim', href: '#iletisim' },
+  { name: 'İletişim', href: '/contact' },
 ])
 
 const isScrolled = ref(false)

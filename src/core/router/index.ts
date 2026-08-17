@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import MenuLayout from '@/layouts/MenuLayout.vue'
 import MenuView from '../views/MenuView.vue'
 import InterierView from '../views/InterierView.vue'
+import ContactView from '../views/ContactView.vue'
 const approutes = [
   {
     path: '/',
@@ -18,6 +19,12 @@ const approutes = [
         path: '/interier',
         name: 'interier',
         component: InterierView,
+      },
+
+      {
+        path: '/contact',
+        name: 'contact',
+        component: ContactView,
       },
     ],
   },
