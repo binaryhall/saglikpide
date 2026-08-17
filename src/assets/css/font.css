@@ -1,0 +1,32 @@
+/* plus jakarta sans  */
+@font-face {
+  font-family: 'PlusJakartaSansItalic';
+  src: url('/fonts/plusjakartasans/plusjakartasansitalic.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('/fonts/plusjakartasans/plusjakartasans.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* inter  */
+
+@font-face {
+  font-family: 'InterItalic';
+  src: url('/fonts/inter/InterItalic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@theme {
+  --font-jakartaitalic: 'PlusJakartaSansItalic', cursive;
+  --font-jakarta: 'PlusJakartaSans', cursive;
+  --font-interitalic: 'InterItalic', cursive;
+  --font-inter: 'Inter', cursive;
+}

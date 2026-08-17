@@ -1,0 +1,9 @@
+@theme {
+  --color-primary: #c62828;
+  --color-primary-hover: #a61b1b;
+
+  --color-second: #f3e9e2;
+
+  --color-danger: #d32f2f;
+  --color-success: var(--color-green-600);
+}
